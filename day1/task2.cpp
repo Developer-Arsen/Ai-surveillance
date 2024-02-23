@@ -1,8 +1,6 @@
 #include <iostream> 
 
 int main () {
-
-    // Task 2. Data Types and Variables
     int num = 10;
     char sym = 'a';
     float num2 = 25.5;
@@ -13,6 +11,5 @@ int main () {
     std::cout<< "float is : "  << num2 << std::endl;
     std::cout<< "double is : " << num3 << std::endl;
     std::cout<< "bool is : "   << status << std::endl;
-
     return 0;
 }

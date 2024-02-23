@@ -1,8 +1,6 @@
 #include <iostream> 
 
 int main () {
-
-    // Task 3. Control Structures
     int number = 0;
     char grade = 'E';
     std::cin >> number;
