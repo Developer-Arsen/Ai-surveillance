@@ -1,0 +1,38 @@
+Task 10. File I/O
+Write a program that creates a text file and writes a list of names into it. Then, open the same
+file for reading and print its contents to the console. This task aims to teach basic file input and output 
+operations, including opening, reading, writing, and closing files.
+
+Task 11. File-Based Sorting Algorithm Selector using Enums, Structs, and Function Pointers
+Modify the sorting algorithm selector program to read an array of integers from a file, sort the array
+using a selected algorithm, and then save the sorted array back to a file. This variation integrates 
+file I/O with enums, structs, and function pointers, showcasing how to manipulate data read from and written to files in C++.
+
+Read Array from File
+Write a function to read an array of integers from a specified file. The function should open the file,
+read the integers into an array or vector, and then close the file.
+
+Define Enum and Struct
+As before, create an enum for sorting strategies (SortingStrategy) and a struct for sorting options
+(SortingOption) that includes a sorting function pointer.
+
+Implement Sorting Functions
+Implement the sorting algorithms (e.g., Bubble Sort, Selection Sort) ensuring they can sort an array or vector of integers.
+
+Sorting Option Array
+Initialize an array of SortingOption structs with each sorting strategy and its corresponding function.
+
+User Input for File Name and Sorting Selection
+Prompt the user for the name of the input file containing the unsorted integers and the desired
+sorting algorithm. Validate the user's input for the algorithm selection.
+
+Sort Array
+After reading the array from the file, use the selected sorting algorithm to sort the data.
+
+Save Sorted Array to File
+Write a function to save the sorted array back to a new file or overwrite the original file.
+The function should open the file for writing, write the sorted integers, and then close the file.
+
+
+
+
