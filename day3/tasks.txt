@@ -1,18 +1,20 @@
 Task 7. Implementing a Sorting Algorithm Selector using Function Pointers
 Create a program that demonstrates the use of function pointers by implementing a sorting algorithm selector.
-This program should allow the user to choose between at least two sorting algorithms (e.g., Bubble Sort and Selection Sort) to sort an array of integers.
-The selection of the sorting algorithm will be done through function pointers, showcasing how they can be used to invoke different functions dynamically based
-on user input.
+This program should allow the user to choose between at least two sorting algorithms (e.g., Bubble Sort and Selection Sort) 
+to sort an array of integers.
+The selection of the sorting algorithm will be done through function pointers, showcasing how they can be used to invoke different 
+functions dynamically based on user input.
 
 Define Sorting Functions
 Implement two sorting algorithms as separate functions:
-Bubble Sort: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
-Selection Sort: An algorithm that divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the 
-front of the list, and the sublist of items remaining to be sorted that occupy the rest of the list. Initially, the sorted sublist is empty, and the unsorted
-sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist,
-swapping it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
-Define a Function Pointer Type for Sorting
-Define a function pointer type that matches the signature of the sorting functions. For example, if your sorting functions have the signature void 
+Bubble Sort: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, 
+and swaps them if they are in the wrong order. Selection Sort: An algorithm that divides the input list into two parts:
+the sublist of items already sorted, which is built up from left to right at the front of the list, and the sublist of
+items remaining to be sorted that occupy the rest of the list. Initially, the sorted sublist is empty, and the unsorted
+sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order)
+element in the unsorted sublist,swapping it with the leftmost unsorted element (putting it in sorted order), and moving
+the sublist boundaries one element to the right. Define a Function Pointer Type for Sorting Define a function pointer 
+type that matches the signature of the sorting functions. For example, if your sorting functions have the signature void 
 sort(int* array, int size), define a function pointer type accordingly.
 
 User Input for Sorting Selection
