@@ -10,7 +10,7 @@ size_t str_len(const char * str) {
     return count;
 }
 
-char * str_cat_with_index (char * dest , const char * src) {
+char * str_cat_with_index(char * dest , const char * src) {
     int i = 0;
     while (dest[i] != '\0') {
         i++;

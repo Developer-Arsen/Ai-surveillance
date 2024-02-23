@@ -1,6 +1,6 @@
 #include <iostream> 
 
-int find_max (int size, int * arr) {
+int find_max(int size, int * arr) {
     int max = arr[0];
     for (int i  = 0; i < size; i++) {
         if (max < arr[i]) max = arr[i];
@@ -9,7 +9,7 @@ int find_max (int size, int * arr) {
 }
 
 
-int find_min (int size, int * arr) {
+int find_min(int size, int * arr) {
     int min = arr[0];
     for (int i  = 0; i < size; i++) {
         if (min > arr[i]) min = arr[i];
@@ -18,7 +18,7 @@ int find_min (int size, int * arr) {
 }
 
 
-int find_mean (int size, int * arr) {
+int find_mean(int size, int * arr) {
     int mean = 0;
     for (int i  = 0; i < size; i++) {
         mean += i;
