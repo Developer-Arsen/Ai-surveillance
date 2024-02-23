@@ -1,35 +1,37 @@
 #include <iostream> 
 
-int add_ (int a, int b) {
+int add (int a, int b) {
     return a + b;
 }
 
-int sub_ (int a, int b) {
+int sub (int a, int b) {
     return a - b;
 }
 
-int mul_ (int a, int b) {
+int mul (int a, int b) {
     return a * b;
 }
 
-int div_ (int a, int b) {
+int divide (int a, int b) {
     return a / b;
 }
+
 int main () {
+    int a = 0;
+    int b = 0;
 
-    std::cin>> a;
-    std::cin>> b;
+    std::cin >> a;
+    std::cin >> b;
 
-    int add = add_(a,b);
-    int sub = sub_(a,b);
-    int mul = mul_(a,b);
-    int div = div_(a,b);
+    int add_val = add(a,b);
+    int sub_val = sub(a,b);
+    int mul_val = mul(a,b);
+    int div_val = divide(a,b);
 
-
-    std::cout << "add is " << add << std::endl;
-    std::cout << "sub is " << sub << std::endl;
-    std::cout << "mul is " << mul << std::endl;
-    std::cout << "div is " << div << std::endl;
+    std::cout << "add is " << add_val << std::endl;
+    std::cout << "sub is " << sub_val << std::endl;
+    std::cout << "mul is " << mul_val << std::endl;
+    std::cout << "div is " << div_val << std::endl;
 
     return 0;
 }
