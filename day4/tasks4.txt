@@ -34,5 +34,17 @@ Write a function to save the sorted array back to a new file or overwrite the or
 The function should open the file for writing, write the sorted integers, and then close the file.
 
 
+Task 12. Object-Oriented Programming (OOP)
+Design a Book class with attributes such as title, author, and ISBN. Include methods that
+allow setting and getting these attributes. In the main function, create an instance of the Book
+class and demonstrate setting and retrieving its attributes. This task is designed to introduce
+the principles of OOP, encapsulation, and the use of classes and objects.
+
+
+Task 13. Inheritance
+Create a base class Shape with a method to calculate the area and derive
+two classes from it: Circle and Rectangle. Implement the area calculation method for
+each derived class. This task introduces the concept of inheritance and polymorphism.
+
 
 
